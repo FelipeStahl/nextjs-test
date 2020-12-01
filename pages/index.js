@@ -2,7 +2,7 @@ const { useState } = require("react");
 
 function Home(){
     return <div>
-        <h1>Home 1</h1>
+        <h1>Home 2</h1>
         <Contador />
     </div>
 }
