@@ -24,13 +24,13 @@ function Home(){
         <div className="logon-container">
             <section className="form">
                 <form onSubmit={handleLogin}>
-                    <h1>Faça seu login</h1>
+                    <h1>Faça seu login 1</h1>
                         <input placeholder="Sua id"
                             value={id}
                             onChange={e => setId(e.target.value)}
                         />
                         <button className="button" type="submit">Entrar</button>
-                        <a href="/register" className="back-link">
+                        <a href="/profile" className="back-link">
                             <FiLogIn size={16} color="#E02041" />
                             Não tenho cadastro.
                         </a>
